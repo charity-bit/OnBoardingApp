@@ -1,0 +1,14 @@
+C:\Users\charitynyanchera\source\repos\OnBoardingApp\OnBoardingApp\OnBoardingApp\bin\Debug\netstandard2.0\OnBoardingApp.deps.json
+C:\Users\charitynyanchera\source\repos\OnBoardingApp\OnBoardingApp\OnBoardingApp\bin\Debug\netstandard2.0\OnBoardingApp.dll
+C:\Users\charitynyanchera\source\repos\OnBoardingApp\OnBoardingApp\OnBoardingApp\obj\Debug\netstandard2.0\OnBoardingApp.csprojAssemblyReference.cache
+C:\Users\charitynyanchera\source\repos\OnBoardingApp\OnBoardingApp\OnBoardingApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\charitynyanchera\source\repos\OnBoardingApp\OnBoardingApp\OnBoardingApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\charitynyanchera\source\repos\OnBoardingApp\OnBoardingApp\OnBoardingApp\obj\Debug\netstandard2.0\OnBoardingApp.AssemblyInfoInputs.cache
+C:\Users\charitynyanchera\source\repos\OnBoardingApp\OnBoardingApp\OnBoardingApp\obj\Debug\netstandard2.0\OnBoardingApp.AssemblyInfo.cs
+C:\Users\charitynyanchera\source\repos\OnBoardingApp\OnBoardingApp\OnBoardingApp\bin\Debug\netstandard2.0\ref\OnBoardingApp.dll
+C:\Users\charitynyanchera\source\repos\OnBoardingApp\OnBoardingApp\OnBoardingApp\bin\Debug\netstandard2.0\OnBoardingApp.pdb
+C:\Users\charitynyanchera\source\repos\OnBoardingApp\OnBoardingApp\OnBoardingApp\obj\Debug\netstandard2.0\OnBoardingApp.csproj.CoreCompileInputs.cache
+C:\Users\charitynyanchera\source\repos\OnBoardingApp\OnBoardingApp\OnBoardingApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\charitynyanchera\source\repos\OnBoardingApp\OnBoardingApp\OnBoardingApp\obj\Debug\netstandard2.0\OnBoardingApp.dll
+C:\Users\charitynyanchera\source\repos\OnBoardingApp\OnBoardingApp\OnBoardingApp\obj\Debug\netstandard2.0\ref\OnBoardingApp.dll
+C:\Users\charitynyanchera\source\repos\OnBoardingApp\OnBoardingApp\OnBoardingApp\obj\Debug\netstandard2.0\OnBoardingApp.pdb

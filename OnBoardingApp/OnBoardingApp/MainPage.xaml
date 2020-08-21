@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:cv="clr-namespace:CarouselView.FormsPlugin.Abstractions;assembly=CarouselView.FormsPlugin.Abstractions"
+             xmlns:vm="clr-namespace:OnBoardingApp.ViewModel"
+             mc:Ignorable="d"
+             x:Class="OnBoardingApp.MainPage">
+
+    <ContentPage.BindingContext>
+        <vm:GymViewModel />
+    </ContentPage.BindingContext>
+    <ContentPage.Content>    <Grid RowDefinitions="1*,auto">
+
+
+            <cv:CarouselViewControl ItemsSource="{Binding GetItems}" 
+                                    ShowIndicators="True" x:Name="GymItem"
+                            IndicatorsShape="Circle" CurrentPageIndicatorTintColor="{StaticResource Blue}" 
+                            IndicatorsTintColor="{StaticResource Gray}"
+                            >
+        <cv:CarouselViewControl.ItemTemplate>
+            <DataTemplate>
+                <StackLayout>
+                    <Image Source="{Binding ImagePath}" 
+                           />
+                    <Label Text="{Binding Text}" FontFamily="PoppinsBold" 
+                           HorizontalOptions="Center" FontSize="24" TextColor="{StaticResource Black}"/>
+                    <Label Text="{Binding words}" FontFamily="PoppinsLight" LineHeight="1.5"
+                           TextColor="{StaticResource Black}"  WidthRequest="300"
+                           HorizontalOptions="Center" HorizontalTextAlignment="Center"/>
+                     </StackLayout>
+            </DataTemplate>
+        </cv:CarouselViewControl.ItemTemplate>
+       </cv:CarouselViewControl>
+      <Button Text="Continue" Grid.Row="1" x:Name="myLabel"
+              FontFamily="PoppinsLight" BackgroundColor="{StaticResource Blue}"
+                            CornerRadius="30" WidthRequest="268" HorizontalOptions="Center"
+                            VerticalOptions="End" Margin="0,0,0,10"/>
+       </Grid>
+   
+    </ContentPage.Content>
+
+
+</ContentPage>
